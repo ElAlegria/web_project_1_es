@@ -1,0 +1,5 @@
+{
+  "files.autoSave": "onFocusChange", // guardar cada vez que cambies de ventana activa
+"editor.formatOnSave": true, // formatear cada vez que guardes
+
+}
