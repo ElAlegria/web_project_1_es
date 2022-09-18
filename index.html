@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprender a aprender</title>
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <div class="page">
@@ -19,8 +19,9 @@
 
     <main class="content">
       <section class="description">
+        <h2 style="color: white;">1</h2><!--puse esto porque en el W3C me daba un error en esta linea, y se supone que tenia que poner un div o h2 pero con el div que hay en la siguiente linea no me aceptaba y intente poner los princiales problemas de la educacion y aunque lo aceptaba me movia todo asi que asi que recurri a esta mexicanada-->
         <div class="two-columns">
-          <a  href="#" class="two-columns__brief">Principales problemas de la educacion</a>
+          <a  href="#" class="two-columns__brief link_hover">Principales problemas de la educacion</a>
           <div class="two-columns__main">
             <p class="two-columns__paragraph">Ya sea en la escuela o en la universidad, lo único que nadie te enseña es a enseñarte a ti mismo. Muchas veces acabamos haciendo ejercicios específicos y memorizando información sin pensar, para que cuando llegue la hora del examen, aprobemos la prueba. Pero una vez terminada la prueba, esa información ya no tiene utilidad, y no hay garantía de que se conserve. Al final, solo estamos aprendiendo a pasar las pruebas.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Aquí está la verdadera pregunta:</span> ¿este enfoque de repetición y memorización nos ayuda a comprender realmente la materia? El consenso académico actual es que no. En realidad, lo que es más importante que cualquier tema individual es saber cómo estudiar, pero por alguna razón, este punto a menudo se pasa por alto. Entonces, ¿qué podemos hacer para remediarlo?</p>
@@ -40,6 +41,7 @@
           <li class="table__cell">
             <h3 class="table__heading">73 %</h3>
             <p class="table__text">Porcentaje de adultos en EE. UU. que se consideran alumnos de por vida - Pew Research Center</p>
+            <p class="table__text">Pew Research Centere</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">1000 terabytes</h3>
@@ -52,6 +54,7 @@
           <li class="table__cell">
             <h3 class="table__heading">420 millones</h3>
             <p class="table__text">El número de adultos menores de 25 años con una educación insuficiente para encontrar empleo.</p>
+            <p class="table__text ">Banco mundial,2017</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">26 años</h3>
@@ -69,8 +72,8 @@
       </section>
 
       <section class="feynman">
-        <h3 class="feynman__title">La tecnica feynman</h3>
-        <h4 class="feynman__subtitle">Aprende sin olvidar</h4>
+        <h2 class="feynman__title">La tecnica feynman</h2>
+        <h3 class="feynman__subtitle">Aprende sin olvidar</h3>
         <a class="feynman__link link_hover" href="#">Mas&#8594;</a>
         <img class="feynman__image" src="./images/feynman.png" alt="Una imagen de Richard
         Feynman, físico cuántico de fama mundial. Ta Técnica Feynman se
@@ -79,8 +82,8 @@
       </section>
 
       <section class="kaufman">
-        <h4 class=" section-title section-title_theme_dark">Diez principios para adquirir habilidades rápidamente</h4>
-        <h4 class="section-subtitle section-subtitle_theme_dark">por Josh Kaufman</h4>
+        <h2 class=" section-title section-title_theme_dark">Diez principios para adquirir habilidades rápidamente</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark">por Josh Kaufman</h3>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -123,18 +126,18 @@
             <p class="table__text table__text_theme_dark">Enfatizar la cantidad y la velocidad</p>
           </li>
         </ul>
-        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="">
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="tiangulo de color azul">
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__columns">
+      <section class="footer__columns">
         <div class="footer__column_content_copyright">
           <img class="logo_place_footer" src="./images/logo_place_footer.png" alt="logo practicumen pie de pagina">
-          <h5 class="footer__author">&copy; 2021 El Alegria</h5>
+          <p class="footer__author">&copy; 2021 El Alegria</p>
         </div>
         <div class="footer__column_content_about">
-          <h6 class="footer__column-heading">acerca de practicum Yandex</h6>
+          <h5 class="footer__column-heading">acerca de practicum Yandex</h5>
           <ul class="footer__list">
             <li class="footer__column-link">
               <a href="#" class="footer__link link_hover">Pagina principal</a>
@@ -144,7 +147,7 @@
           </ul>
         </div>
         <div class="footer__column_content_social">
-          <h6 class="footer__column-heading">Redes sociales</h6>
+          <h5 class="footer__column-heading">Redes sociales</h5>
           <ul class="footer__list">
             <li class="footer__column-link">
               <a href="#" class="footer__link link_hover"><img src="./images/facebook_white.svg" alt="icono de facebook" class="footer__social-icons"> Facebook</a>
@@ -152,7 +155,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </footer>
   </div>
 </body>
