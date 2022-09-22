@@ -28,7 +28,6 @@
           </div>
         </div>
       </section>
-	<div class="XD-borrar-despues">XD</div>
 
       <section class="digits">
         <h2 class="section-title">Datos y figuras</h2>
@@ -159,4 +158,4 @@
     </footer>
   </div>
 </body>
-</html>
+</html> 
