@@ -1,0 +1,17 @@
+@keyframes opacity {
+  0%{
+    opacity: 1;
+  }
+
+  50%{
+    opacity: .2;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.link_hover:hover{/*agregado por mi, lo que no se si metodologicamente esta correcto el nombre si me pueden poner un comentario sobre esto se lo agradeceria mucho*/
+  animation: opacity 1.5s linear infinite;
+  text-shadow: 5px 5px 5px red;
+  transition: text-shadow 1s ease;/*prueba*/
+}

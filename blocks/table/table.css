@@ -1,0 +1,9 @@
+@import url(./__cell/table__cell.css);
+.table{
+  width: 1100px;
+  row-gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px 0 0;
+  }

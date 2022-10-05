@@ -1,122 +1,55 @@
-*{
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/tecniques/tecniques.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/animations/animations.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/video/video.css);
+
+
+*,img{
   padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
-  border: 1px solid red;
   box-sizing: border-box;
+  border: 1px solid red;
 }
-.page{
-  min-width: 1100px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-.header {
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    display: flex;
-    position: relative;
-    background-color:#F2F2F2;
-}
-  .logo_place_header{
-      width: 154px;
-      height: 31px;
-      position: absolute;
-      top: 30px;
-      left:64px;
-      z-index: 5;
-    }
-  .header__title{
-      width: 730px;
-      margin-left: 64px;
-      font-size: 102px;
-      line-height: 96px;
-      font-weight: bold;
-      align-self: center;
-      z-index: 5;
-    }
-   .header__subtitle{
-      width: 388px;
-      position: absolute;
-      /*padding: 0 0 30px 64px; sustitucion de margin*/
-      bottom:30px;
-      left: 64px;
-      line-height: 25px;
-      font-size: 18px;
-      font-weight: normal;
-      z-index: 5;
-    }
-    .header__link{
-      color: #2F80ED;
-    }
-    .link_hover:hover{/*agregado por mi, lo que no se si metodologicamente esta correcto el nombre si me pueden poner un comentario sobre esto se lo agradeceria mucho*/
-      color:darkorange;
-    }
-   .header__main-illustration{
-      width: 756px;
-      height: 608px;
-      position: absolute;
-      align-self: flex-end;
-      right: 0px;
-      z-index:1;
-    }
+/*preguntar a christian si debo de separar la parte de page o tiene
+que ir en el normalize*/
+
+
+
+
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-   .header__square-pic {
-      height: 568px;
-      width: 568px;
-    }
-    .header__square{
-      top:64px;
-      background-color:#2F80ED;
-      position: absolute;
-      right: 0;
-      z-index:0;
-    }
-.description{
-    display: flex;
-    justify-content: center;
-    padding: 100px 0;
-}
-  .two-columns{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  }
-    .two-columns__brief{
-    color: #2F80ED;
-    width: 180px;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
-    }
-      .two-columns__main{
-        width: 80%;
-        min-width: 784px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-      }
-      .two-columns__paragraph{
-        line-height: 34px;
-        font-size: 24px;
-        font-weight: normal;
-        /*padding: 0 0 30px;*/
-      }
-      .two-columns__span-accent{
-        line-height: 34px;
-        font-size: 24px;
-        font-weight:bold;
-        margin-top: 30px;
-      }
-      /*table*/
-.digits{
+
+
+
+
+
+
+
+
+/*parte de video borrar despues*/
+
+
+
+
+.oakley{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 100px;
+  justify-content: center;
+  background-color: #F2F2F2;
+  padding: 160px 0 80px;
 }
+
+      /*table*/
+
   .section-title{
     width: 60%;
     margin:0 0 20px;
@@ -133,18 +66,9 @@
     font-weight: normal;
     /*margin: 0 20% 20px; prueba*/
     text-align: center;
-    margin: 0 0 60px;
   }
-  .table{
-    width: 1100px;
-    row-gap: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-    .table__cell{
-      width: 250px;
-    }
+
+
       .table__heading{
         line-height: 1.15;
         font-size: 24px;
@@ -199,6 +123,80 @@
     left: 0;
     bottom: 0;
     }
+.khan{
+  display: flex;
+  justify-content: center;
+}
+.khan__container{
+  width: 80%;
+  padding: 105px 0 0;
+}
+.khan__author{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 0 0 5px;/* agregado*/
+}
+.khan__title{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+.khan__quote{
+  width: 790px;
+  margin: 50px 0 36px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+.khan__quote-author{
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+.khan__quote-author-subline{
+  margin-bottom: 68px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+.khan__book-container{
+  display: flex;
+  overflow: hidden;
+}
+.khan__book-pic{
+  width: 620px;
+  background-image: url(../images/__sprint-2/khan-book-2.png);
+  height: 608px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 48px;
+}
+.khan__buy-link{
+  color: #2F80ED;
+  height: 50px;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+}
+.resources{
+display: flex;
+padding: 100px 0 0;
+flex-wrap: wrap;
+justify-content: center;
+}
+.logo-zone{
+  width: 1100px;
+  margin: 80px 0 217px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.resources__logo{
+  width: 270px;
+  height: 38px;
+}
 .kaufman{
   background-color: black;
   display: flex;
@@ -215,11 +213,11 @@
   .section-subtitle_theme_dark{
     color: white;
     z-index: 1;
-    margin: 0 0 80px;
   }
   .table_theme_dark{
     z-index: 1;
     row-gap: 80px;
+    margin-top: 80px;
   }
   .table__cell_theme_dark {
     width: 200px;
