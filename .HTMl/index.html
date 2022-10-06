@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprender a aprender</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="../styles/index.css">
 </head>
-<!--recordar cuando programe en cambiar los nombres de las carpetas con animacion , no entregar sin antes hacer eso-->>
+<!--agregar animaciones a cards,resource__logo(iluminacion de bordes) al igual que incorporarle un formulacion y los soportes de cada navegador-->
 <body>
   <div class="page">
     <header class="header">
@@ -17,7 +17,7 @@
       <div class="header__square header__square-pic animation__rotate "></div>
     </header>
 
-    <main class="content">
+    <main class="contents">
       <section class="description">
         <div class="two-columns">
           <a  href="#" class="two-columns__brief animations__link_hover ">Principales problemas de la educacion</a>
@@ -34,27 +34,27 @@
         <h3 class="section-subtitle">Cinco estrategias por Barbara Oakley</h3>
         <section class="cards">
           <div class="cards__item scale animation__scale">
-            <img src="./images/__sprint-2/cards-attention.png" alt="un libro en las manos de una persona" class="cards__image">
+            <img src="../images/__sprint-2/cards-attention.png" alt="un libro en las manos de una persona" class="cards__image">
             <h3 class="cards__title">Piensa de dos maneras distintas</h3>
             <p class="cards__description">Un profundo conocimiento se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
           </div>
           <div class="cards__item scale animation__scale">
-            <img src="./images/__sprint-2/cards-recall.png"alt="estatua pensativa " class="cards__image">
+            <img src="../images/__sprint-2/cards-recall.png" alt="estatua pensativa " class="cards__image">
             <h3 class="cards__title">Usa el recuerdo </h3>
             <p class="cards__description">Mejorar tu capacidad de recordar piezas clave de información ayuda a conectar diferentes áreas del cerebro.</p>
           </div>
           <div class="cards__item scale animation__scale">
-            <img src="./images/__sprint-2/cards-interleaving.png" alt="un gran pasillo lleno con personas" class="cards__image">
+            <img src="../images/__sprint-2/cards-interleaving.png" alt="un gran pasillo lleno con personas" class="cards__image">
             <h3 class="cards__title">Alterna </h3>
             <p class="cards__description">Cuando aprendes múltiples habilidades al mismo tiempo, estas se refuerzan mutuamente.</p>
           </div>
           <div class="cards__item scale animation__scale">
-            <img src="./images/__sprint-2/cards-question.png" alt="una persona en un cuarto con muchas ventanas " class="cards__image ">
+            <img src="../images/__sprint-2/cards-question.png" alt="una persona en un cuarto con muchas ventanas " class="cards__image ">
             <h3 class="cards__title">Haz preguntas </h3>
             <p class="cards__description">Cuando escuches a tu profesor, piensa en una buena pregunta, en algo que realmente te intrigue.</p>
           </div>
-          <div class="cards__item scale">
-            <img src="./images/__sprint-2/cards-competence.png" alt="persona sosteniendo con su palma de la mano varios libros " class="cards__image animation__scale">
+          <div class="cards__item animation__scale">
+            <img src="../images/__sprint-2/cards-competence.png" alt="persona sosteniendo con su palma de la mano varios libros " class="cards__image ">
             <h3 class="cards__title">Crea la ilusión de competencia</h3>
             <p class="cards__description">Ponte a prueba, apunta tu resultado, cuéntaselo a otras personas y repite el proceso con diferentes configuraciones. Solo entonces podrás estar seguro de haber comprendido algo.</p>
           </div>
@@ -65,12 +65,8 @@
         <h2 class="section-title">Charlas TED</h2>
         <h3 class="section-subtitle">Para los amantes de la procrastinación</h3>
         <div class="video__iframes">
-          <iframe id="ytplayer" type="text/html" width="720" height="405"
-            src="https://www.youtube.com/embed/5MgBikgcWnY"
-            frameborder="0" allowfullscreen class="video__iframe "></iframe>
-            <iframe id="ytplayer" type="text/html" width="720" height="405"
-            src="https://www.youtube.com/embed/arj7oStGLkU"
-            frameborder="0" allowfullscreen class="video__iframe "></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" style="border-radius:10% ;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" style="border-radius:10% ;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -199,20 +195,20 @@
       <section class="resources">
         <h5 class="section-title">Recursos útiles </h5>
         <h5 class="section-subtitle">Lás materiales sobre técnicas y trucos de aprendizaje.</h5>
-        <div class="resources__logo-zone">
+        <nav class="resources__logo-zone">
           <a href="#" class="resources__logo">
-            <img src="./images/__sprint-2/logo/resources-tedED.png" alt="imagen con link hacia la pagina TEDEd" class="resources__logo animation__scale">
+            <img src="../images/__sprint-2/logo/resources-tedED.png" alt="imagen con link hacia la pagina TEDEd" class="resources__logo animation__scale">
           </a>
           <a href="#" class="resources__logo">
-            <img src="./images/__sprint-2/logo/resources-Medium.png" alt="imagen con link hacia la pagina medium"  class="resources__logo animation__scale">
+            <img src="../images/__sprint-2/logo/resources-Medium.png" alt="imagen con link hacia la pagina medium"  class="resources__logo animation__scale">
           </a>
           <a href="#" class="resources__logo">
-            <img src="./images/__sprint-2/logo/resources-dezeen.png" alt="imagen con link hacia la pagina denzeen"  class="resources__logo animation__scale">
+            <img src="../images/__sprint-2/logo/resources-dezeen.png" alt="imagen con link hacia la pagina denzeen"  class="resources__logo animation__scale">
           </a>
           <a href="#" class="resources__logo">
-            <img src="./images/__sprint-2/logo/resources-goodreads.png" alt="imagen con link hacia la pagina goodreads"  class="resources__logo animation__scale">
+            <img src="../images/__sprint-2/logo/resources-goodreads.png" alt="imagen con link hacia la pagina goodreads"  class="resources__logo animation__scale">
           </a>
-        </div>
+        </nav>
       </section>
     </main>
 
@@ -225,16 +221,20 @@
         <div class="footer__column_content_about">
           <h5 class="footer__column-heading">acerca de practicum Yandex</h5>
           <ul class="footer__list">
+            <li>
               <a href="#" class="footer__link animations__link_hover">Pagina principal</a>
               <a href="#" class="footer__link animations__link_hover">Mision</a>
               <a href="#" class="footer__link animations__link_hover">profeciones</a>
+            </li>
           </ul>
         </div>
         <div class="footer__column_content_social">
           <h5 class="footer__column-heading">Redes sociales</h5>
           <ul class="footer__list">
+            <li>
               <a href="#" class="footer__link animations__link_hover"><img src="../images/__sprint-1/facebook_white.svg" alt="icono de facebook" class="footer__social-icons"> Facebook</a>
               <a href="#" class="footer__link animations__link_hover"><img src="../images/__sprint-1/instagram_white.svg" alt="icono de instragram" class="footer__social-icons"> Instagram</a>
+            </li>
           </ul>
         </div>
       </section>
