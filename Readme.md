@@ -4,7 +4,7 @@
 
 Este proyecto se ha creado con fines de practica, pero se espera en un futuro poder reutilar su estructura
 base para asi simplificar la tarea de futuros proyectos mas complejos, al igual que fue un proyecto
-creado por el Bootcamp (https://practicum.com/es-mex/"**Practicum**") para la enseñansa de sus alumnos, este contiene todo lo necesario
+creado por el Bootcamp **Practicum** para la enseñansa de sus alumnos, este contiene todo lo necesario
 para una pagina principal.
 
 ## **instalacion del proyecto**
