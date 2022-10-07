@@ -3,9 +3,9 @@
 /*block normalize*/
 @import url(../blocks/page/page.css);
 /*block page*/
-@import url(../blocks/animations/__link-hover/animations__link-hover.css);
-@import url(../blocks/animations/__rotacion/animations__rotacion.css);
-@import url(../blocks/animations/__scale/animations__scale.css);
+@import url(../blocks/opacidad/opacidad.css);
+@import url(../blocks/rotacion/rotacion.css);
+@import url(../blocks/scale/scale.css);
 /*block animations*/
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);

@@ -4,15 +4,15 @@
 
 Este proyecto se ha creado con fines de practica, pero se espera en un futuro poder reutilar su estructura
 base para asi simplificar la tarea de futuros proyectos mas complejos, al igual que fue un proyecto
-creado por el Bootcamp [**practicum**{https://practicum.com/es-mex/}] para la enseñansa de sus alumnos, este contiene todo lo necesario
+creado por el Bootcamp (https://practicum.com/es-mex/"**Practicum**") para la enseñansa de sus alumnos, este contiene todo lo necesario
 para una pagina principal.
 
 ## **instalacion del proyecto**
 
-1 entrar a git
-2 hacer click en clonar
-3 irte a consola y hacer un git clone
-4 a disfrutar el proyecto Xd
+1 entrar a git**
+2 hacer click en clonar**
+3 irte a consola y hacer un git clone**
+4 a disfrutar el proyecto Xd**
 
 ## **actualizaciones del proyecto:**
 

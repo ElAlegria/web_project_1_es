@@ -9,6 +9,6 @@
     scale: 1;
   }
 }
-.animation__scale:hover{
+.scale:hover{
   animation: scale 1.5s linear infinite;
 }
