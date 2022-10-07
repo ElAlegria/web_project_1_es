@@ -1,8 +1,4 @@
-@import url(../header/__title/header__title.css);
-@import url(../header/__subtitle/header__subtitle.css);
-@import url(../header/__main-illustration/header__main-illustration.css);
-@import url(../header/__link/header__link.css);
-@import url(../header/__square/header__square.css);
+
 /*arriba importaciones de header*/
 .header {
   height: 100vh;
