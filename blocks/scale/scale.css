@@ -18,5 +18,5 @@
   animation: scale .5s linear forwards;
 }
 .scale:not(:hover){
-  animation: scale-reverse .5s linear ;
+  animation: scale-reverse .5s linear;
 }
