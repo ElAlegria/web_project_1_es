@@ -1,8 +1,9 @@
 
 .feynman{
-  height: 790px;
+  height:790px;/*esta declaracion viene especificada en el pdf del proyecto 1*/
   background-color:#F2F2F2;
   position: relative;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
