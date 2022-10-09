@@ -1,4 +1,6 @@
 
 .video__content{
   border-radius:50%;
+  width:560px;
+  height:315px;
 }
